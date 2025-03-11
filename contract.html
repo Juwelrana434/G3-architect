@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us via WhatsApp</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header
+    class="max-w-[1440px] mx-auto  pb-8 md:pb-12"
+  >
+    <nav class="max-w-[1440px] mx-auto shadow-lg py-4">
+      <div
+        class="max-w-[1440px] mx-auto px-4 flex items-center justify-between"
+      >
+        <h1 class="text-xl md:text-[45px] font-bold text-[#131313]">
+          G-3 Architects
+        </h1>
+        <ul class="hidden md:flex space-x-6 font-semibold">
+          <a href="index.html" class="hover:text-[#FF900E] cursor-pointer">Home</a>
+          <a href="about.html" class="hover:text-[#FF900E] cursor-pointer"
+            >About</a
+          >
+          <a href="contract.html" class="hover:text-[#FF900E] cursor-pointer"
+            >Contact us</a
+          >
+          <a href="login.html" class="hover:text-[#FF900E] cursor-pointer">Login</a>
+        </ul>
+        <!-- Mobile Menu Button -->
+        <button class="md:hidden text-black text-2xl" id="menu-btn">☰</button>
+      </div>
+      <!-- Mobile Menu -->
+      <div
+        class="md:hidden flex flex-col justify-start space-y-4 mt-4 hidden"
+        id="menu"
+      >
+        <a href="index.html" class="block hover:text-[#FF900E] cursor-pointer">Home</a>
+        <a href="about.html" class="block hover:text-[#FF900E] cursor-pointer"
+          >About</a
+        >
+        <a href="contract.html" class="block hover:text-[#FF900E] cursor-pointer"
+          >Contact us</a
+        >
+        <a href="login.html" class="block hover:text-[#FF900E] cursor-pointer"
+          >Login</a
+        >
+      </div>
+    </nav>
+   
+  </header>
+<div class="bg-gray-100 flex items-center justify-center min-h-screen">
+    <div class="bg-white p-8 rounded-lg shadow-md w-full max-w-md">
+        <h2 class="text-2xl font-bold text-gray-800 mb-6 text-center">Contact Us on WhatsApp</h2>
+
+        <!-- Address & Email Section -->
+        <div class="mb-6">
+            <h3 class="text-lg font-semibold text-gray-700">📍 Our Address</h3>
+            <p class="text-gray-600">Kushtia, Bangladesh</p>
+        </div>
+
+        <div class="mb-6">
+            <h3 class="text-lg font-semibold text-gray-700">📧 Email</h3>
+            <p class="text-gray-600">jewel.rana9543@gmail.com</p>
+        </div>
+
+        <!-- WhatsApp Contact Button -->
+        <a href="https://api.whatsapp.com/send?phone=8801723954334&text=Hello!%20I'm%20interested%20in%20your%20services." 
+           target="_blank"
+           class="w-full block text-center bg-green-500 text-white py-3 text-lg rounded-lg font-semibold hover:bg-green-600 transition duration-300">
+            Send via WhatsApp 📩
+        </a>
+    </div>
+</div>
+<footer class="max-w-[1440px] mx-auto">
+    <p
+      class="h-24 flex items-center justify-center text-sm md:text-lg lg:text-xl text-black bg-[#FFF4E7] text-center"
+    >
+      &copy; 2025 Startup Landing Page. All rights reserved.
+    </p>
+  </footer>
+<script src="script.js"></script>
+
+</body>
+</html>

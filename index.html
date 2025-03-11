@@ -15,209 +15,369 @@
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
-    <header class="border-2 border-red-500 bg-[#FF900E1A] max-w-[1920px] mx-auto py-8 px-6 md:px-12 lg:px-[240px]">
-      <nav class="border-2 border-gray-200 max-w-[1440px] mx-auto">
-        <div class="max-w-[1440px] mx-auto flex items-center justify-between">
-          <h1 class="text-xl md:text-[45px] font-bold text-[#131313]">G-3 Architects</h1>
-          <ul class="hidden md:flex space-x-6">
-            <a href="#" class="hover:text-gray-300 cursor-pointer">Home</a>
-            <a href="#" class="hover:text-gray-300 cursor-pointer">About</a>
-            <a href="#" class="hover:text-gray-300 cursor-pointer">Contact us</a>
-            <a href="#" class="hover:text-gray-300 cursor-pointer">Login</a>
+    <header
+      class="max-w-[1440px] mx-auto px-4 md:px-8 px-4 py-8 md:py-12 bg-[#FF900E1A]"
+    >
+      <nav class="max-w-[1440px] mx-auto px-4 shadow-lg py-4">
+        <div
+          class="max-w-[1440px] mx-auto px-4 flex items-center justify-between"
+        >
+          <h1 class="text-xl md:text-[45px] font-bold text-[#131313]">
+            G-3 Architects
+          </h1>
+          <ul class="hidden md:flex space-x-6 font-semibold">
+            <a href="#" class="hover:text-[#FF900E] cursor-pointer">Home</a>
+            <a href="about.html" class="hover:text-[#FF900E] cursor-pointer"
+              >About</a
+            >
+            <a href="contract.html" class="hover:text-[#FF900E] cursor-pointer"
+              >Contact us</a
+            >
+            <a href="login.html" class="hover:text-[#FF900E] cursor-pointer">Login</a>
           </ul>
           <!-- Mobile Menu Button -->
           <button class="md:hidden text-black text-2xl" id="menu-btn">☰</button>
         </div>
         <!-- Mobile Menu -->
-        <div class="md:hidden flex flex-col justify-start space-y-4 mt-4 hidden" id="menu">
-          <a href="#" class="block hover:text-gray-300 cursor-pointer">Home</a>
-          <a href="#" class="block hover:text-gray-300 cursor-pointer">About</a>
-          <a href="#" class="block hover:text-gray-300 cursor-pointer">Contact us</a>
-          <a href="#" class="block hover:text-gray-300 cursor-pointer">Login</a>
+        <div
+          class="md:hidden flex flex-col justify-start space-y-4 mt-4 hidden"
+          id="menu"
+        >
+          <a href="#" class="block hover:text-[#FF900E] cursor-pointer">Home</a>
+          <a href="about.html" class="block hover:text-[#FF900E] cursor-pointer"
+            >About</a
+          >
+          <a href="contract.html" class="block hover:text-[#FF900E] cursor-pointer"
+            >Contact us</a
+          >
+          <a href="login.html" class="block hover:text-[#FF900E] cursor-pointer"
+            >Login</a
+          >
         </div>
-        
       </nav>
-      <div class="border-2 border-red-500 mt-12 md:mt-20 max-w-[1440px] mx-auto px-4">
+      <div class="mt-12 md:mt-20 max-w-[1440px] mx-auto px-4 md:px-8 px-4">
         <div class="text-center">
-          <h1 class="font-bold text-2xl md:text-[64px] leading-tight text-[#131313]">
-            Brand New <br /> Group of Architects
+          <h1
+            class="font-bold text-2xl md:text-[64px] leading-tight text-[#131313]"
+          >
+            Brand New <br />
+            Group of Architects
           </h1>
-          <p class="font-normal text-base md:text-lg leading-relaxed my-6 max-w-[868px] mx-auto">
-            We are a team of innovative architects, committed to turning your ideas into reality with creative and practical design solutions, across residential, commercial, and urban projects.
+          <p
+            class="font-normal text-base md:text-lg leading-relaxed my-6 max-w-[868px] mx-auto"
+          >
+            We are a team of innovative architects, committed to turning your
+            ideas into reality with creative and practical design solutions,
+            across residential, commercial, and urban projects.
           </p>
           <div class="flex justify-center items-center mb-8">
-            <button class="w-[160px] md:w-[180px] h-[56px] md:h-[64px] text-center font-semibold text-lg md:text-[20px] px-5 py-3 text-white bg-[#FF900E] rounded-xl">
+            <button
+              class="w-[160px] md:w-[180px] h-[56px] md:h-[64px] text-center font-semibold text-lg md:text-[20px] px-5 py-3 text-white bg-[#FF900E] rounded-xl"
+            >
               Explore More
             </button>
           </div>
-          <img src="images/banner.png" alt="Banner" class="w-full max-w-[900px] mx-auto">
+          <img src="images/banner.png" alt="Banner" class="w-full mx-auto" />
         </div>
       </div>
     </header>
-    
+
     <!-- feature section start -->
-    <main class="max-w-[1920px] mx-auto border-2 border-red-500 px-6 md:px-12 lg:px-[240px]">
-      <section class="mx-auto py-20 flex flex-col md:flex-row items-center justify-between gap-10">
-        
+    <main class="max-w-[1440px] mx-auto px-4 md:px-8">
+      <section
+        class="mx-auto py-20 flex flex-col md:flex-row items-center justify-between gap-10"
+      >
         <!-- Image Container -->
         <div class="grid grid-cols-2 gap-4 px-4 mx-auto md:w-[55%]">
-          <img src="images/team1.png" alt="Team member image" class="w-full h-auto object-cover rounded-lg" />
-          <img src="images/team2.png" alt="Team member image" class="w-full h-auto object-cover rounded-lg" />
-          <img src="images/team3.png" alt="Team member image" class="w-full h-auto object-cover rounded-lg" />
-          <img src="images/team4.png" alt="Team member image" class="w-full h-auto object-cover rounded-lg" />
+          <img
+            src="images/team1.png"
+            alt="Team member image"
+            class="w-full h-auto object-cover rounded-lg"
+          />
+          <img
+            src="images/team2.png"
+            alt="Team member image"
+            class="w-full h-auto object-cover rounded-lg"
+          />
+          <img
+            src="images/team3.png"
+            alt="Team member image"
+            class="w-full h-auto object-cover rounded-lg"
+          />
+          <img
+            src="images/team4.png"
+            alt="Team member image"
+            class="w-full h-auto object-cover rounded-lg"
+          />
         </div>
-    
+
         <!-- Content Section -->
         <div class="md:w-[45%] px-4">
-          <h3 class="font-bold text-[36px] md:text-[45px] text-center md:text-left leading-tight">
+          <h3
+            class="font-bold text-[36px] md:text-[45px] text-center md:text-left leading-tight"
+          >
             <span class="text-[#727272]">Quick list</span>
-            <span class="text-[#131313]"> of our</span><br>
+            <span class="text-[#131313]"> of our</span><br />
             <span class="text-[#FF900E]"> Features</span>
           </h3>
           <p class="text-center md:text-left mt-4 text-base text-[#727272]">
-            There are many variations of passages of Lorem Ipsum available, but
-            the majority have suffered alteration in some form, by injected 
-            humour, or randomised words which don't look even.
+            G-3 Architect is a team of creative professionals focused on
+            delivering innovative, sustainable designs. We transform spaces with
+            functionality, aesthetics, and cutting-edge technology, creating
+            architecture that enhances both life and environment.
           </p>
           <div class="text-center md:text-left mt-6">
-            <button class="text-lg font-semibold py-3 px-6 rounded-lg bg-orange-500 text-white hover:bg-orange-600 transition duration-200 ease-in-out">
+            <button
+              class="text-lg font-semibold py-3 px-6 rounded-lg bg-orange-500 text-white hover:bg-orange-600 transition duration-200 ease-in-out"
+            >
               Explore More
             </button>
           </div>
         </div>
-    
       </section>
     </main>
-    
-      
-      
+
     <!-- start feature part -->
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-[1920px] mx-auto px-4 md:px-[100px] lg:px-[240px] py-16 place-items-center">
-  
+    <div
+      class="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-[1440px] mx-auto px-4 md:px-8 py-16 place-items-center"
+    >
       <!-- Feature List -->
       <div class="feature-title h-auto">
-        <h1 class="text-2xl md:text-3xl lg:text-[45px] font-bold leading-[50px] text-center md:text-left">
+        <h1
+          class="text-2xl md:text-3xl lg:text-[45px] font-bold leading-[50px] text-center md:text-left"
+        >
           Features you will love & enjoy
         </h1>
-    
+
         <p class="mt-4 text-[#727272] text-center md:text-left">
-          There are many variations of passages of Lorem Ipsum available, but
-          the majority have suffered alteration in some form, by injected
-          humour, or randomised.
+          G-3 Architect, enjoy innovative designs, sustainable solutions, and
+          seamless communication. Our team ensures every project is crafted with
+          precision, using cutting-edge technology to bring your architectural
+          vision to life.
         </p>
-    
+
         <!-- Feature Items -->
         <div class="space-y-6 mt-8">
           <div>
-            <h4 class="text-lg md:text-xl font-semibold leading-[24px]">Desktop & Mobile Version</h4>
+            <h4 class="text-lg md:text-xl font-semibold leading-[24px]">
+              Desktop & Mobile Version
+            </h4>
             <p class="text-[#727272] leading-[26px]">
-              There are many variations of passages of Lorem Ipsum available, but
-              the majority have suffered alteration in some form.
+              We offer responsive designs that seamlessly adapt to any device,
+              ensuring your experience is optimized whether you’re on desktop or
+              mobile.
             </p>
           </div>
-    
+
           <div>
-            <h4 class="text-lg md:text-xl font-semibold leading-[24px]">Drag & Drop Builder</h4>
+            <h4 class="text-lg md:text-xl font-semibold leading-[24px]">
+              Drag & Drop Builder
+            </h4>
             <p class="text-[#727272] leading-[26px]">
-              There are many variations of passages of Lorem Ipsum available, but
-              the majority have suffered alteration in some form.
+              Our user-friendly drag-and-drop builder allows for easy
+              customization, letting you create and modify your space with ease
+              and flexibility.
             </p>
           </div>
-    
+
           <div>
-            <h4 class="text-lg md:text-xl font-semibold leading-[24px]">Awesome Modern Design</h4>
+            <h4 class="text-lg md:text-xl font-semibold leading-[24px]">
+              Awesome Modern Design
+            </h4>
             <p class="text-[#727272] leading-[26px]">
-              There are many variations of passages of Lorem Ipsum available, but
-              the majority have suffered alteration in some form.
+              With a focus on clean lines and modern aesthetics, our designs are
+              crafted to reflect the latest architectural trends while providing
+              practical solutions.
             </p>
           </div>
-    
+
           <div>
-            <h4 class="text-lg md:text-xl font-semibold leading-[24px]">Super Easy to Edit</h4>
+            <h4 class="text-lg md:text-xl font-semibold leading-[24px]">
+              Super Easy to Edit
+            </h4>
             <p class="text-[#727272] leading-[26px]">
-              There are many variations of passages of Lorem Ipsum available, but
-              the majority have suffered alteration in some form.
+              Our platform is designed for simplicity, making it super easy for
+              you to make adjustments and changes without any hassle or
+              technical expertise.
             </p>
           </div>
         </div>
       </div>
-    
+
       <!-- Image Section -->
       <div class="relative w-full flex justify-center md:justify-end">
-        <img src="images/architect.png" alt="Architect Image" class="w-full h-auto max-w-[500px] md:max-w-full" />
-        
+        <img
+          src="images/architect.png"
+          alt="Architect Image"
+          class="w-full h-auto max-w-[500px] md:max-w-full"
+        />
+
         <!-- Experience Button -->
-        <button class="bg-[#FF900E] text-white absolute bottom-6 left-1/2 transform -translate-x-1/2 flex flex-col items-center justify-center shadow-lg rounded-lg 
-          px-4 py-2 w-[120px] h-[60px] sm:w-[180px] sm:h-[80px] md:w-[240px] md:h-[120px] lg:w-[300px] lg:h-[160px] xl:w-[342px] xl:h-[200px]">
-      
-          <span class="font-bold text-[16px] sm:text-[22px] md:text-[32px] lg:text-[45px] xl:text-[65px] leading-tight">
+        <button
+          class="bg-[#FF900E] text-white absolute bottom-6 left-1/2 transform -translate-x-1/2 flex flex-col items-center justify-center shadow-lg rounded-lg px-4 py-2 w-[120px] h-[60px] sm:w-[180px] sm:h-[80px] md:w-[240px] md:h-[120px] lg:w-[300px] lg:h-[160px] xl:w-[342px] xl:h-[200px]"
+        >
+          <span
+            class="font-bold text-[16px] sm:text-[22px] md:text-[32px] lg:text-[45px] xl:text-[65px] leading-tight"
+          >
             10+ Years
           </span>
-          <span class="font-semibold text-[10px] sm:text-[14px] md:text-[18px] lg:text-xl">
+          <span
+            class="font-semibold text-[10px] sm:text-[14px] md:text-[18px] lg:text-xl"
+          >
             Experience
           </span>
         </button>
       </div>
-    
     </div>
-    
-    
+
     <!-- Fact section  -->
-    <!-- <section class="facts">
-      <h1>Some Facts</h1>
-      <p>
-        There are many variations of passages of Lorem Ipsum available, but the
-        majority have suffered alteration.
-      </p>
-    </section> -->
+    <section class="py-16">
+      <div class="container mx-auto text-center px-4">
+        <h2 class="text-3xl font-bold text-gray-900 mb-8">Some Facts</h2>
+        <p class="text-lg text-gray-700 mb-12">
+          At G-3 Architect, we take pride in delivering exceptional results.
+          Here are some key facts about our approach:
+        </p>
+      </div>
+    </section>
+
     <!-- icon section  -->
-    <!-- <div class="icon">
-      <div class="ribon">
-        <div><img src="images/icons/ribon.png" alt="" /></div>
-        <div><h2>54</h2></div>
-        <div><p>Awards Winnings</p></div>
+    <div
+      class="max-w-[1440px] mx-auto px-4 md:px-8 my-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6"
+    >
+      <!-- Stats Box -->
+      <div
+        class="min-w-[200px] min-h-[200px] sm:min-w-[220px] sm:min-h-[220px] lg:w-[241px] lg:h-[241px] text-[35px] sm:text-[40px] lg:text-[45px] rounded-lg flex flex-col items-center justify-center border-[1px] border-[#FF900E] p-4"
+      >
+        <img
+          src="images/icons/ribon.png"
+          alt="Awards Icon"
+          class="w-10 h-10 mb-2"
+        />
+        <h2 class="font-semibold leading-[45px]">54</h2>
+        <p class="text-lg sm:text-xl font-semibold leading-[23px] text-center">
+          Awards Winnings
+        </p>
       </div>
-      <div class="ribon">
-        <div><img src="images/icons/projects.png" alt="" /></div>
-        <h2>1458</h2>
-        <p>Project Finished</p>
+
+      <div
+        class="min-w-[200px] min-h-[200px] sm:min-w-[220px] sm:min-h-[220px] lg:w-[241px] lg:h-[241px] text-[35px] sm:text-[40px] lg:text-[45px] rounded-lg flex flex-col items-center justify-center border-[1px] border-[#FF900E] p-4"
+      >
+        <img
+          src="images/icons/projects.png"
+          alt="Projects Icon"
+          class="w-10 h-10 mb-2"
+        />
+        <h2 class="font-semibold leading-[45px]">1458</h2>
+        <p class="text-lg sm:text-xl font-semibold leading-[23px] text-center">
+          Project Finished
+        </p>
       </div>
-      <div class="ribon">
-        <div><img src="images/icons/customers.png" alt="" /></div>
-        <h2>590</h2>
-        <p>Clients Worked</p>
+
+      <div
+        class="min-w-[200px] min-h-[200px] sm:min-w-[220px] sm:min-h-[220px] lg:w-[241px] lg:h-[241px] text-[35px] sm:text-[40px] lg:text-[45px] rounded-lg flex flex-col items-center justify-center border-[1px] border-[#FF900E] p-4"
+      >
+        <img
+          src="images/icons/customers.png"
+          alt="Clients Icon"
+          class="w-10 h-10 mb-2"
+        />
+        <h2 class="font-semibold leading-[45px]">590</h2>
+        <p class="text-lg sm:text-xl font-semibold leading-[23px] text-center">
+          Clients Worked
+        </p>
       </div>
-      <div class="ribon">
-        <div><img src="images/icons/email.png" alt="" /></div>
-        <h2>22578</h2>
-        <p>Email Send</p>
+
+      <div
+        class="min-w-[200px] min-h-[200px] sm:min-w-[220px] sm:min-h-[220px] lg:w-[241px] lg:h-[241px] text-[35px] sm:text-[40px] lg:text-[45px] rounded-lg flex flex-col items-center justify-center border-[1px] border-[#FF900E] p-4"
+      >
+        <img
+          src="images/icons/email.png"
+          alt="Email Icon"
+          class="w-10 h-10 mb-2"
+        />
+        <h2 class="font-semibold leading-[45px]">22578</h2>
+        <p class="text-lg sm:text-xl font-semibold leading-[23px] text-center">
+          Emails Sent
+        </p>
       </div>
-    </div> -->
-    <!-- Our Sponspors section -->
-    <!-- <section class="Sponspors">
-      <h2>Our Sponspors</h2>
-      <p>
-        There are many variations of passages of Lorem Ipsum available, but the
-        majority have suffered alteration.
+    </div>
+    <div class="flex justify-center">
+      <p class="my-8 text-lg text-gray-700">
+        We strive for excellence in every project we undertake, ensuring that
+        each design is tailored to perfection.
       </p>
-    </section> -->
-    <!-- <div class="Sponspors-icon">
-      <img src="images/sponsors/spotify.png" alt="" />
-      <img src="images/sponsors/amazon.png" alt="" />
-      <img src="images/sponsors/google.png" alt="" />
-      <img src="images/sponsors/telerama.png" alt="" />
-      <img src="images/sponsors/figma.png" alt="" />
-    </div> -->
-    <!-- <footer class="footer">
-      <p>All rights reserved copyright@2023 startup landing page design</p>
-    </footer> -->
-    <script>
+    </div>
+
+    <!-- Our Sponspors section -->
+    <section class="pt-6">
+      <div class="flex flex-col items-center">
+        <h2 class="text-2xl md;text-3xl lg:text-4xl font-bold text-center mb-6">
+          Our Sponsors
+        </h2>
+
+        <p class="text-base text-[#727272] mb-12 mt-3 px-4 md:px-8">
+          We are proud to be supported by industry leaders and trusted partners
+          who help us shape innovative and sustainable designs.
+        </p>
+      </div>
+    </section>
+    <div
+      class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-6 max-w-[1440px] mx-auto px-4 md:px-8 py-4 md:py-16 place-items-center"
+    >
+      <a href="https://www.spotify.com" target="_blank">
+        <img
+          src="images/sponsors/spotify.png"
+          alt="Spotify"
+          class="w-32 md:w-40 lg:w-48 h-auto object-contain hover:scale-105 transition-transform duration-300"
+        />
+      </a>
+      <a href="https://www.amazon.com" target="_blank">
+        <img
+          src="images/sponsors/amazon.png"
+          alt="Amazon"
+          class="w-32 md:w-40 lg:w-48 h-auto object-contain hover:scale-105 transition-transform duration-300"
+        />
+      </a>
+      <a href="https://www.google.com" target="_blank">
+        <img
+          src="images/sponsors/google.png"
+          alt="Google"
+          class="w-32 md:w-40 lg:w-48 h-auto object-contain hover:scale-105 transition-transform duration-300"
+        />
+      </a>
+      <a href="https://www.telerama.com" target="_blank">
+        <img
+          src="images/sponsors/telerama.png"
+          alt="Telerama"
+          class="w-32 md:w-40 lg:w-48 h-auto object-contain hover:scale-105 transition-transform duration-300"
+        />
+      </a>
+      <a href="https://www.figma.com" target="_blank">
+        <img
+          src="images/sponsors/figma.png"
+          alt="Figma"
+          class="w-32 md:w-40 lg:w-48 h-auto object-contain hover:scale-105 transition-transform duration-300"
+        />
+      </a>
+    </div>
+
+    <footer class="max-w-[1440px] mx-auto">
+      <p
+        class="h-24 flex items-center justify-center text-sm md:text-lg lg:text-xl text-black bg-[#FFF4E7] text-center"
+      >
+        &copy; 2025 Startup Landing Page. All rights reserved.
+      </p>
+    </footer>
+
+    <!-- <script>
       const menuBtn = document.getElementById("menu-btn");
       const menu = document.getElementById("menu");
 
       menuBtn.addEventListener("click", () => {
         menu.classList.toggle("hidden");
       });
-    </script>
+    </script> -->
+    <script src="script.js"></script>
   </body>
 </html>
