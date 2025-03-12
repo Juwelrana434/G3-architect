@@ -13,6 +13,10 @@
 
     <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- font awesome  -->
+  
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js" crossorigin="anonymous"></script>
+     
   </head>
   <body>
     <header
@@ -209,7 +213,7 @@
         <img
           src="images/architect.png"
           alt="Architect Image"
-          class="w-full h-auto max-w-[500px] md:max-w-full"
+          class="w-full h-auto md:max-w-full"
         />
 
         <!-- Experience Button -->
@@ -303,7 +307,7 @@
       </div>
     </div>
     <div class="flex justify-center">
-      <p class="my-8 text-lg text-gray-700">
+      <p class="my-8 text-lg text-gray-700 px-4 md:px-8">
         We strive for excellence in every project we undertake, ensuring that
         each design is tailored to perfection.
       </p>
@@ -362,22 +366,36 @@
       </a>
     </div>
 
+    <head>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js" crossorigin="anonymous"></script>
+    </head>
+    
     <footer class="max-w-[1440px] mx-auto">
-      <p
-        class="h-24 flex items-center justify-center text-sm md:text-lg lg:text-xl text-black bg-[#FFF4E7] text-center"
-      >
-        &copy; 2025 Startup Landing Page. All rights reserved.
-      </p>
+      <div class="h-24 flex flex-col items-center justify-center bg-[#FFF4E7]">
+        <p class="text-sm md:text-lg lg:text-xl text-black text-center">
+          &copy; 2025 Startup Landing Page. All rights reserved.
+        </p>
+        <div class="mt-2 flex space-x-4">
+          <a href="https://facebook.com" target="_blank" 
+             class="text-black text-xl transition-all duration-500 hover:scale-125 hover:text-blue-600">
+            <i class="fab fa-facebook"></i>
+          </a>
+          <a href="https://twitter.com" target="_blank" 
+             class="text-black text-xl transition-all duration-500 hover:scale-125 hover:text-sky-500">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="https://instagram.com" target="_blank" 
+             class="text-black text-xl transition-all duration-500 hover:scale-125 hover:text-pink-500">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="https://linkedin.com" target="_blank" 
+             class="text-black text-xl transition-all duration-500 hover:scale-125 hover:text-blue-800">
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </div>
+      </div>
     </footer>
-
-    <!-- <script>
-      const menuBtn = document.getElementById("menu-btn");
-      const menu = document.getElementById("menu");
-
-      menuBtn.addEventListener("click", () => {
-        menu.classList.toggle("hidden");
-      });
-    </script> -->
+    
     <script src="script.js"></script>
   </body>
 </html>
